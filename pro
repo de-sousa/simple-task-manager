@@ -58,7 +58,7 @@ case $1 in
 	exit 0
 	;;
     "remove")
-	rm -r $PROJECT_FOLDER$2
+	rm -r $(echo $PROJECT_FOLDER$2 | sed "s|\.\.|\.|g")
 	for empty_dir in $(find $PROJECT_FOLDER -type d -empty)
 	do
 	    rmdir $empty_dir
