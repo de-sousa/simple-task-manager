@@ -68,6 +68,7 @@ which would output:
 > school/math
 > reading
 ```
+
 	- Showing the next task in all projects can be done with:
 ```
 pro next
@@ -93,6 +94,11 @@ pro remove school/math
 or removing group of projects with:
 ```
 pro remove school
+```
+
+- It's possible to edit the tasks on the project using your text editor (bound to `$EDITOR`) with:
+```
+pro edit school/math
 ```
 
 ## Notes

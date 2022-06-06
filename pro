@@ -82,4 +82,9 @@ case $1 in
 	cat $PROJECT_FOLDER$2
 	exit 0
 	;;
+    "edit")
+	awk -i inplace "NF!=0" $PROJECT_FOLDER$2
+	$EDITOR $PROJECT_FOLDER$2
+	exit 0
+	;;
 esac
