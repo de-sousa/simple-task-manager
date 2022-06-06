@@ -22,8 +22,7 @@ Review
 ```
 followed by `Control-d`.
 
-- These lists are ordered, and work like a queue, and only the one at the front can be removed at a time.
-	- Checking all the tasks in a project can be done like:
+- These lists are ordered, and work like a queue, and only the one at the front can be removed at a time. Checking all the tasks in a project can be done like:
 ```
 pro show school/math
 ```
@@ -34,7 +33,7 @@ Solve chapter 3 exercises
 Review
 ```
 
-	- Checking the task at the front can be done like:
+- Checking the task at the front can be done like:
 ```
 pro next school/math	
 ```
@@ -43,7 +42,7 @@ which would output:
 Study chapter 3
 ```
 
-- Marking the task in front can be done like:
+- Marking the task in front as done can be done like:
 ```
 pro done school/math
 ```
